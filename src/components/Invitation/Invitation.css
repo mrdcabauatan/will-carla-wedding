@@ -1,0 +1,391 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap&family=Pinyon+Script&display=swap");
+
+.invitation-container {
+  min-height: calc(100vh - 4rem);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2.5rem 4rem;
+  animation: fadeIn 1.2s ease;
+}
+
+.invitation-monogram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.monogram-image {
+  width: 100px;
+  max-width: 25vw;
+  height: auto;
+  object-fit: contain;
+  user-select: none;
+  pointer-events: none;
+  filter: drop-shadow(0 6px 18px rgba(0, 0, 0, 0.15));
+}
+
+.invite-title {
+  margin-top: 1.2rem;
+  font-family: "Playfair Display", serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: 0.6rem;
+  color: var(--primary-color);
+}
+
+.ornament-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  max-width: 430px;
+  margin: 1.2rem auto;
+}
+
+.ornament-divider .line {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right,
+      transparent,
+      rgba(90, 15, 31, 0.45),
+      rgba(90, 15, 31, 1),
+      rgba(90, 15, 31, 0.45),
+      transparent);
+}
+
+.ornament {
+  width: 88px;
+  height: 30px;
+  color: #5A0F1F;
+  flex-shrink: 0;
+  opacity: 0.95;
+  filter: drop-shadow(0 2px 5px rgba(90, 15, 31, 0.3));
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  letter-spacing: 0.4rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.couple-names {
+  font-family: "Pinyon Script", cursive;
+  font-size: clamp(5rem, 7vw, 8rem);
+  font-weight: 700;
+  line-height: 1;
+  color: var(--primary-color);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 4px 18px rgba(0, 0, 0, .2);
+}
+
+.message {
+  max-width: 60rem;
+}
+
+.message p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.7;
+  color: var(--primary-color);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, .15);
+  margin-bottom: 1rem;
+}
+
+.participation-text {
+  font-size: 2.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--primary-color);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, .15);
+}
+
+.celebrate-text {
+  font-family: "Great Vibes", cursive;
+  font-size: 2.8rem;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, .15);
+}
+
+.role-subtitle {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.7;
+  color: var(--primary-color);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, .15);
+}
+
+.bottom-divider {
+  margin-bottom: 1rem;
+}
+
+.signature {
+  color: var(--primary-color);
+}
+
+.signature p:first-child {
+  font-family: "Playfair Display", serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: .4rem;
+  margin-bottom: .4rem;
+}
+
+.signature p:last-child {
+  font-family: "Playfair Display", serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: .3rem;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* =========================
+   Large Desktop
+========================= */
+@media (min-width:1600px) {
+
+  .invitation-container {
+    max-width: 1600px;
+    margin: auto;
+  }
+
+}
+
+/* =========================
+   Laptop
+========================= */
+@media (max-width:1599px) {
+
+  .message {
+    max-width: 56rem;
+  }
+
+}
+
+/* =========================
+   Small Laptop
+========================= */
+@media (max-width:1365px) {
+
+  .invitation-container {
+    padding: 2.5rem 3rem;
+  }
+
+  .message {
+    max-width: 52rem;
+  }
+
+}
+
+/* =========================
+   Tablet Landscape
+========================= */
+@media (max-width:1199px) {
+
+  .invitation-container {
+    padding: 2rem;
+  }
+
+  .invite-title {
+    font-size: 1.15rem;
+    letter-spacing: .45rem;
+  }
+
+  .subtitle {
+    font-size: 1.15rem;
+    letter-spacing: .3rem;
+  }
+
+  .couple-names {
+    font-size: clamp(4.3rem, 9vw, 6.5rem);
+  }
+
+  .message p {
+    font-size: 1.45rem;
+  }
+
+  .participation-text,
+  .celebrate-text {
+    font-size: 2.5rem;
+  }
+
+  .role-subtitle {
+    font-size: 1.45rem;
+  }
+
+}
+
+/* =========================
+   Tablet Portrait
+========================= */
+@media (max-width:991px) {
+
+  .invite-title {
+    font-size: 1.1rem;
+    letter-spacing: .35rem;
+  }
+
+  .subtitle {
+    font-size: 1.1rem;
+    letter-spacing: .25rem;
+  }
+
+  .couple-names {
+    font-size: clamp(4.2rem, 10vw, 5.9rem);
+  }
+
+  .message p {
+    font-size: 1.45rem;
+    line-height: 1.65;
+  }
+
+  .participation-text,
+  .celebrate-text {
+    font-size: 2.45rem;
+  }
+
+  .role-subtitle {
+    font-size: 1.45rem;
+  }
+
+  .signature p:first-child,
+  .signature p:last-child {
+    font-size: 1.2rem;
+  }
+
+}
+
+/* =========================
+   Large Phones
+========================= */
+@media (max-width:767px) {
+
+  .invite-title {
+    font-size: 1rem;
+    letter-spacing: .22rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+    letter-spacing: .18rem;
+  }
+
+  .couple-names {
+    font-size: clamp(3.6rem, 12vw, 5rem);
+  }
+
+  .message p {
+    font-size: 1.3rem;
+    line-height: 1.6;
+  }
+
+  .participation-text,
+  .celebrate-text {
+    font-size: 2.2rem;
+  }
+
+  .role-subtitle {
+    font-size: 1.3rem;
+  }
+
+  .signature p:first-child,
+  .signature p:last-child {
+    font-size: 1.1rem;
+  }
+
+}
+
+/* =========================
+   Phones
+========================= */
+@media (max-width:575px) {
+
+  .invite-title {
+    font-size: .92rem;
+  }
+
+  .subtitle {
+    font-size: .92rem;
+  }
+
+  .couple-names {
+    font-size: 3.8rem;
+  }
+
+  .message {
+    max-width: 50rem;
+  }
+
+  .message p {
+    font-size: 1.2rem;
+  }
+
+  .participation-text,
+  .celebrate-text {
+    font-size: 2rem;
+  }
+
+  .role-subtitle {
+    font-size: 1.15rem;
+  }
+
+}
+
+/* =========================
+   Small Phones
+========================= */
+@media (max-width:479px) {
+
+  .invite-title {
+    font-size: .85rem;
+  }
+
+  .subtitle {
+    font-size: .85rem;
+  }
+
+  .couple-names {
+    font-size: 3.4rem;
+  }
+
+  .message p {
+    font-size: 1.1rem;
+    line-height: 1.55;
+  }
+
+  .participation-text,
+  .celebrate-text {
+    font-size: 1.8rem;
+  }
+
+  .role-subtitle {
+    font-size: 1.05rem;
+  }
+
+  .signature p:first-child,
+  .signature p:last-child {
+    font-size: .95rem;
+  }
+
+}

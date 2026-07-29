@@ -1,0 +1,170 @@
+.navbar {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(12px);
+  padding: 12px 30px;
+  border-radius: 50px;
+  border: 1px solid rgba(138, 164, 191, 0.2);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #4e6885;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #8aa4bf;
+}
+
+/* =========================
+   LARGE TABLETS
+========================= */
+
+@media (max-width: 1024px) {
+  .navbar {
+    width: 90%;
+    padding: 10px 20px;
+  }
+
+  .nav-links {
+    gap: 18px;
+  }
+
+  .nav-links a {
+    font-size: 11px;
+    letter-spacing: 1px;
+  }
+}
+
+/* =========================
+   IPAD MINI / AIR
+========================= */
+
+@media (max-width: 820px) {
+  .navbar {
+    width: 94%;
+    padding: 10px 15px;
+  }
+
+  .nav-links {
+    gap: 14px;
+  }
+
+  .nav-links a {
+    font-size: 10px;
+  }
+}
+
+/* =========================
+   MOBILE DEVICES
+========================= */
+
+@media (max-width: 768px) {
+  .navbar {
+    top: 10px;
+    width: 96%;
+    padding: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .navbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .nav-links {
+    width: max-content;
+    min-width: 100%;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .nav-links a {
+    font-size: 10px;
+    letter-spacing: 0.5px;
+  }
+}
+
+/* =========================
+   IPHONE XR / 12 PRO
+========================= */
+
+@media (max-width: 430px) {
+  .navbar {
+    width: 97%;
+    padding: 8px 10px;
+  }
+
+  .nav-links {
+    gap: 10px;
+  }
+
+  .nav-links a {
+    font-size: 9px;
+    letter-spacing: 0.25px;
+  }
+}
+
+/* =========================
+   IPHONE SE
+========================= */
+
+@media (max-width: 375px) {
+  .navbar {
+    width: 98%;
+    padding: 8px;
+  }
+
+  .nav-links {
+    gap: 8px;
+  }
+
+  .nav-links a {
+    font-size: 8px;
+    letter-spacing: 0;
+  }
+}
+
+/* =========================
+   GALAXY FOLD
+========================= */
+
+@media (max-width: 320px) {
+  .navbar {
+    width: 99%;
+    padding: 6px;
+  }
+
+  .nav-links {
+    gap: 6px;
+  }
+
+  .nav-links a {
+    font-size: 7px;
+    letter-spacing: 0;
+  }
+}

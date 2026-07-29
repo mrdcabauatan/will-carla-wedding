@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Great+Vibes&display=swap");
+
+.alert-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(5, 10, 20, .72);
+    backdrop-filter: blur(12px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+    animation: overlayFade .25s ease;
+}
+
+.alert-modal {
+    width: 92%;
+    max-width: 470px;
+    padding: 42px;
+    border-radius: 28px;
+    background:
+        linear-gradient(160deg,
+            rgba(255, 255, 255, .90),
+            rgba(245, 248, 252, .92));
+    border: 1px solid rgba(255, 255, 255, .45);
+    box-shadow:
+        0 35px 80px rgba(0, 0, 0, .28),
+        inset 0 0 0 1px rgba(255, 255, 255, .35);
+    text-align: center;
+    animation: popup .35s ease;
+}
+
+.alert-modal h2 {
+    margin-top: 22px;
+    color: var(--primary-color);
+    font-size: 2.2rem;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+}
+
+.alert-modal p {
+    margin-top: 18px;
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: var(--primary-color);
+    font-family: "Cormorant Garamond", serif;
+}
+
+.alert-buttons {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.alert-btn {
+    width: 60%;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    letter-spacing: .5px;
+    transition: .25s;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.alert-btn.primary {
+    color: white;
+    background: var(--primary-button);
+}
+
+.alert-btn.primary:hover {
+    background: var(--primary-hover);
+    transform: translateY(-3px);
+}
+
+.alert-btn.secondary {
+    background: white;
+    color: #1f2a44;
+    border: 1px solid rgba(31, 42, 68, .2);
+}
+
+.alert-btn.secondary:hover {
+    background: #eef4fb;
+    transform: translateY(-3px);
+}
+
+@keyframes popup {
+
+    from {
+        opacity: 0;
+        transform: translateY(35px) scale(.92);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes overlayFade {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media(max-width:768px) {
+
+    .alert-modal {
+        padding: 32px 25px;
+    }
+
+    .alert-buttons {
+        flex-direction: column;
+    }
+}

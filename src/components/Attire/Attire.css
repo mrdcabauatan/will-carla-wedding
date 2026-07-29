@@ -1,0 +1,406 @@
+.attire-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.attire-container {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.attire-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.attire-title {
+    margin-top: 3rem;
+    font-weight: 700;
+}
+
+.attire-heading {
+    font-family: "Great Vibes", cursive;
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+}
+
+.dress-description {
+    max-width: 60rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.8;
+    color: var(--primary-color);
+    margin-bottom: -1.2rem;
+}
+
+.attire-showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin: 2rem auto 2.5rem;
+}
+
+.attire-image {
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.attire-image img {
+    width: 155px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.color-palette {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+}
+
+.color-row {
+    display: flex;
+    align-items: center;
+}
+
+.palette {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    margin-left: -18px;
+    transition: all .3s ease;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .15);
+}
+
+.palette:first-child {
+    margin-left: 0;
+}
+
+.palette:hover {
+    transform: translateY(-5px) scale(1.08);
+    z-index: 2;
+}
+
+.attire-guidelines {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: var(--primary-color);
+}
+
+.attire-guidelines h4 {
+    margin-bottom: 1rem;
+    font-family: "Great Vibes", cursive;
+    letter-spacing: 0.25rem;
+    font-size: 1.6rem;
+}
+
+.attire-guidelines ol {
+    display: inline-block;
+    text-align: left;
+    max-width: 40rem;
+    padding-left: 4rem;
+    margin: 0;
+}
+
+.attire-guidelines li {
+    color: var(--primary-color);
+    line-height: 1.8;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: .45rem;
+}
+
+.color1 {
+    background: #232331;
+}
+
+.color2 {
+    background: #323C60;
+}
+
+.color3 {
+    background: #5F232B;
+}
+
+.color4 {
+    background: #B89B5E;
+}
+
+.color5 {
+    background: #72796F;
+}
+
+.color6 {
+    background: #F9FBF7;
+}
+
+/* =========================
+   Large Desktop
+========================= */
+@media (min-width:1600px) {
+
+    .attire-container {
+        max-width: 1000px;
+    }
+
+}
+
+/* =========================
+   Laptop
+========================= */
+@media (max-width:1599px) {
+
+    .dress-description {
+        max-width: 56rem;
+    }
+
+}
+
+/* =========================
+   Small Laptop
+========================= */
+@media (max-width:1365px) {
+
+    .attire-showcase {
+        gap: 4rem;
+    }
+
+}
+
+/* =========================
+   Tablet Landscape
+========================= */
+@media (max-width:1199px) {
+
+    .attire-heading {
+        font-size: 2.4rem;
+    }
+
+    .dress-description {
+        font-size: 1.5rem;
+    }
+
+    .attire-guidelines h4 {
+        font-size: 1.7rem;
+    }
+
+    .attire-guidelines li {
+        font-size: 1.45rem;
+    }
+
+}
+
+/* =========================
+   Tablet Portrait
+========================= */
+@media (max-width:991px) {
+
+    .attire-section {
+        padding: 2rem 1.5rem;
+    }
+
+    .attire-title {
+        margin-top: 2rem;
+    }
+
+    .attire-heading {
+        font-size: 2.7rem;
+    }
+
+    .dress-description {
+        font-size: 1.45rem;
+        line-height: 1.7;
+        margin-bottom: 0;
+    }
+
+    .attire-showcase {
+        gap: 3rem;
+        margin: 2rem auto;
+    }
+
+    .attire-image {
+        width: 170px;
+    }
+
+    .attire-image img {
+        width: 145px;
+    }
+
+    .palette {
+        width: 56px;
+        height: 56px;
+    }
+
+    .attire-guidelines h4 {
+        font-size: 1.8rem;
+    }
+
+    .attire-guidelines li {
+        font-size: 1.4rem;
+        line-height: 1.7;
+    }
+
+}
+
+/* =========================
+   Large Phones
+========================= */
+@media (max-width:767px) {
+
+    .attire-section {
+        padding: 2rem 1.25rem;
+    }
+
+    .attire-title {
+        margin-top: 1rem;
+    }
+
+    .attire-heading {
+        font-size: 2.5rem;
+    }
+
+    .dress-description {
+        font-size: 1.3rem;
+        line-height: 1.65;
+    }
+
+    .attire-showcase {
+        gap: 2rem;
+    }
+
+    .attire-image {
+        width: 155px;
+    }
+
+    .attire-image img {
+        width: 130px;
+    }
+
+    .palette {
+        width: 52px;
+        height: 52px;
+    }
+
+    .attire-guidelines h4 {
+        font-size: 1.7rem;
+    }
+
+    .attire-guidelines ol {
+        max-width: 36rem;
+        padding-left: 2.8rem;
+    }
+
+    .attire-guidelines li {
+        font-size: 1.3rem;
+    }
+
+}
+
+/* =========================
+   Phones
+========================= */
+@media (max-width:575px) {
+
+    .attire-heading {
+        font-size: 2.3rem;
+    }
+
+    .dress-description {
+        font-size: 1.2rem;
+    }
+
+    .attire-showcase {
+        gap: 1.5rem;
+    }
+
+    .attire-image {
+        width: 140px;
+    }
+
+    .attire-image img {
+        width: 118px;
+    }
+
+    .palette {
+        width: 48px;
+        height: 48px;
+        margin-left: -14px;
+    }
+
+    .attire-guidelines h4 {
+        font-size: 1.55rem;
+    }
+
+    .attire-guidelines ol {
+        padding-left: 2.3rem;
+    }
+
+    .attire-guidelines li {
+        font-size: 1.18rem;
+        line-height: 1.65;
+    }
+
+}
+
+/* =========================
+   Small Phones
+========================= */
+@media (max-width:479px) {
+
+    .attire-heading {
+        font-size: 2.1rem;
+    }
+
+    .dress-description {
+        max-width: 20rem;
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+
+    .attire-showcase {
+        gap: 1.25rem;
+    }
+
+    .attire-image {
+        width: 125px;
+    }
+
+    .attire-image img {
+        width: 105px;
+    }
+
+    .palette {
+        width: 44px;
+        height: 44px;
+    }
+
+    .attire-guidelines h4 {
+        font-size: 1.45rem;
+    }
+
+    .attire-guidelines ol {
+        padding-left: 2rem;
+    }
+
+    .attire-guidelines li {
+        font-size: 1.08rem;
+        line-height: 1.6;
+    }
+
+}

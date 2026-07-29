@@ -1,0 +1,252 @@
+.gift-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.gift-container {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.gift-title {
+    margin-top: 3rem;
+    font-weight: 700;
+}
+
+
+.gift-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-heading {
+    font-family: "Great Vibes", cursive;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+.gift-description {
+    max-width: 60rem;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    font-weight: 500;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.wish-card {
+    width: 100%;
+    max-width: 850rem;
+    padding: 2rem;
+    background: rgba(255, 255, 255, .72);
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .08);
+}
+
+.wish-title {
+    font-family: "Great Vibes", cursive;
+    font-size: 2.3rem;
+    color: var(--primary-color);
+    margin-bottom: .5rem;
+}
+
+.wish-subtitle {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.wish-textarea {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 14px;
+    padding: 16px;
+    margin-bottom: 1rem;
+    background: rgba(255, 255, 255, .95);
+    font-size: 1.3rem;
+    transition: .3s;
+    font-family: inherit;
+}
+
+.wish-textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .08);
+}
+
+.wish-textarea {
+    min-height: 180px;
+    resize: vertical;
+}
+
+.wish-button {
+    margin-top: .5rem;
+    width: 50%;
+    padding: 16px;
+    border: none;
+    border-radius: 12px;
+    background: var(--primary-button);
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.wish-button:hover {
+    transform: translateY(-2px);
+    background: var(--primary-hover);
+    opacity: .95;
+}
+
+.wish-button:disabled {
+    cursor: not-allowed;
+    opacity: .7;
+}
+
+@media (max-width:767px) {
+
+    .wish-card {
+        padding: 1.5rem;
+    }
+
+    .wish-title {
+        font-size: 2rem;
+    }
+
+    .wish-subtitle {
+        font-size: 1rem;
+    }
+
+    .wish-input,
+    .wish-textarea {
+        font-size: .95rem;
+    }
+}
+
+/* =========================
+   Large Desktop
+========================= */
+@media (min-width:1600px) {
+
+    .gift-container {
+        max-width: 1000px;
+    }
+
+}
+
+/* =========================
+   Laptop
+========================= */
+@media (max-width:1599px) {
+
+    .gift-description {
+        max-width: 56rem;
+    }
+
+}
+
+/* =========================
+   Tablet Landscape
+========================= */
+@media (max-width:1199px) {
+
+    .gift-heading {
+        font-size: 2.4rem;
+    }
+
+    .gift-description {
+        font-size: 1.5rem;
+    }
+
+}
+
+/* =========================
+   Tablet Portrait
+========================= */
+@media (max-width:991px) {
+
+    .gift-section {
+        padding: 2rem 1.5rem;
+    }
+
+    .gift-title {
+        margin-top: 2rem;
+    }
+
+    .gift-heading {
+        font-size: 2.7rem;
+    }
+
+    .gift-description {
+        font-size: 1.45rem;
+        line-height: 1.7;
+        max-width: 40rem;
+    }
+}
+
+/* =========================
+   Large Phones
+========================= */
+@media (max-width:767px) {
+
+    .gift-section {
+        padding: 2rem 1.25rem;
+    }
+
+    .gift-title {
+        margin-top: 1rem;
+    }
+
+    .gift-heading {
+        font-size: 2.5rem;
+    }
+
+    .gift-description {
+        font-size: 1.3rem;
+        line-height: 1.65;
+        max-width: 28rem;
+    }
+}
+
+/* =========================
+   Phones
+========================= */
+@media (max-width:575px) {
+
+    .gift-heading {
+        font-size: 2.3rem;
+        max-width: 15rem;
+    }
+
+    .gift-description {
+        font-size: 1.2rem;
+        max-width: 22rem;
+    }
+
+}
+
+/* =========================
+   Small Phones
+========================= */
+@media (max-width:479px) {
+
+    .gift-heading {
+        font-size: 1.9rem;
+    }
+
+    .gift-description {
+        max-width: 20rem;
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+
+}
