@@ -54,7 +54,15 @@
   line-height: 1;
   margin-bottom: 1.5rem;
   margin-top: 3rem;
-  color: var(--accent-color);
+  background: linear-gradient(180deg,
+      #fff8da 0%,
+      #fbe7b0 18%,
+      #e8c56a 40%,
+      #c79a3d 65%,
+      #fff1b8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .home-subtitle {
@@ -63,6 +71,13 @@
   font-size: 3rem;
   font-weight: 400;
   line-height: 1.1;
+
+  text-shadow:
+    0 0 2px rgba(255, 245, 210, 0.95),
+    0 0 8px rgba(255, 225, 150, 0.9),
+    0 0 18px rgba(232, 197, 106, 0.8),
+    0 0 35px rgba(184, 155, 94, 0.7),
+    0 2px 4px rgba(70, 45, 0, 0.35);
 }
 
 .description {
@@ -72,7 +87,8 @@
   line-height: 2;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
-  color: var(--accent-color);
+  color: var(--secondary-accent);
+
 }
 
 .countdown {
@@ -117,11 +133,18 @@
   font-weight: 500;
   line-height: 1;
   color: var(--accent-color);
+
+  text-shadow:
+    0 0 2px rgba(255, 245, 210, 0.95),
+    0 0 8px rgba(255, 225, 150, 0.9),
+    0 0 18px rgba(232, 197, 106, 0.8),
+    0 0 35px rgba(184, 155, 94, 0.7),
+    0 2px 4px rgba(70, 45, 0, 0.35);
 }
 
 .time-box span {
   margin-top: 10px;
-  color: var(--accent-color);
+  color: var(--secondary-accent);
   font-size: 0.7rem;
   letter-spacing: 3px;
   line-height: 1;
