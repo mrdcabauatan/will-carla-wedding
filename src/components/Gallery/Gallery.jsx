@@ -58,7 +58,7 @@ export default function Gallery() {
   return (
     <section className="gallery-section section-page" id="gallery">
       <div className="gallery-container section-container">
-        <h2 className="gallery-title section-title">Our Love Story</h2>
+        <h2 className="gallery-title section-title">Chapters of Our Journey</h2>
 
         <div className="gallery-content">
           <div className="gallery-wrapper">
@@ -117,7 +117,8 @@ export default function Gallery() {
           </div>
 
           <p className="gallery-quote">
-            "Every love story is beautiful, but ours is our favorite."
+            "Every memory has shaped our path, leading us to this unforgettable
+            celebration."
           </p>
         </div>
       </div>
