@@ -126,8 +126,9 @@ function RSVP({ guestInfo, setGuestInfo, showAlert }) {
             </h4>
 
             <p>
-              Please respond on or before this date to help us finalize our
-              arrangements.
+              Kindly send us your response on or before this date. Your presence
+              would mean the world to us and will help us finalize the
+              arrangements for our special day
             </p>
           </div>
 
