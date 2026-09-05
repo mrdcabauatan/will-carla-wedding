@@ -127,27 +127,43 @@
 }
 
 .color1 {
-    background: #232331;
-}
-
-.color2 {
-    background: #323C60;
-}
-
-.color3 {
     background: #5F232B;
 }
 
+.color2 {
+    background: #8C4A52;
+}
+
+.color3 {
+    background: #40151C;
+}
+
 .color4 {
-    background: #B89B5E;
+    background: #8FA58B;
 }
 
 .color5 {
-    background: #72796F;
+    background: #B89B5E;
 }
 
 .color6 {
-    background: #F9FBF7;
+    background: #F5E6C8;
+}
+
+.color7 {
+    background: #1E1E1E;
+}
+
+.color8 {
+    background: #464646;
+}
+
+.color9 {
+    background: #C7C7C7;
+}
+
+.color10 {
+    background: #FFFF;
 }
 
 /* =========================

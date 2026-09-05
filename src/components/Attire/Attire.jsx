@@ -48,8 +48,6 @@ export default function Attire({ roleId }) {
             <h4>Additional Guidelines</h4>
 
             <ol>
-              <li>{attire.addGuide}</li>
-
               <li>
                 Kindly wear attire that is modest and appropriate for a
                 religious ceremony.

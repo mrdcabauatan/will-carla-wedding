@@ -19,8 +19,7 @@ export const INVITATION_CONTENT = {
     attire: {
       heading: "Formal Attire",
       image: semiFormalImg,
-      addGuide: "Kindly avoid wearing white or black.",
-      palette: [1, 2, 3, 4, 5, 6],
+      palette: [1, 2, 3],
     },
   },
 
@@ -34,8 +33,7 @@ export const INVITATION_CONTENT = {
     attire: {
       heading: "Formal Suit",
       image: bestManImg,
-      addGuide: "Kindly avoid wearing white or black.",
-      palette: [1, 2, 3, 4, 5, 6],
+      palette: [8, 1, 10],
     },
   },
 
@@ -49,8 +47,7 @@ export const INVITATION_CONTENT = {
     attire: {
       heading: "Long Gown",
       image: bridesmaid,
-      addGuide: "Kindly avoid wearing white or black.",
-      palette: [1, 2, 3, 4, 5, 6],
+      palette: [1],
     },
   },
 
@@ -64,8 +61,7 @@ export const INVITATION_CONTENT = {
     attire: {
       heading: "Formal Suit",
       image: groomsmenImg,
-      addGuide: "Kindly avoid wearing white or black.",
-      palette: [1, 2, 3, 4, 5, 6],
+      palette: [9, 1, 10],
     },
   },
 
@@ -79,8 +75,7 @@ export const INVITATION_CONTENT = {
     attire: {
       heading: "Long Gown",
       image: bridesmaid,
-      addGuide: "Kindly avoid wearing white or black.",
-      palette: [1, 2, 3, 4, 5, 6],
+      palette: [1],
     },
   },
 
@@ -94,8 +89,7 @@ export const INVITATION_CONTENT = {
     attire: {
       heading: "Formal Suit / Long Gown",
       image: pSponsorImg,
-      addGuide: "Kindly avoid wearing white or black.",
-      palette: [1, 2, 3, 4, 5, 6],
+      palette: [5, 6],
     },
   },
 
@@ -109,8 +103,7 @@ export const INVITATION_CONTENT = {
     attire: {
       heading: "Formal Dress",
       image: girlImg,
-      addGuide: "Kindly avoid wearing white or black.",
-      palette: [1, 2, 3, 4, 5, 6],
+      palette: [1],
     },
   },
 
@@ -124,8 +117,7 @@ export const INVITATION_CONTENT = {
     attire: {
       heading: "White Polo, Bow Tie & Suspenders, Trousers",
       image: boyImg,
-      addGuide: "Kindly avoid wearing white or black.",
-      palette: [1, 2, 3, 4, 5, 6],
+      palette: [10, 1, 7],
     },
   },
 
@@ -139,8 +131,7 @@ export const INVITATION_CONTENT = {
     attire: {
       heading: "Long Gown",
       image: bridesmaid,
-      addGuide: "Kindly avoid wearing white or black.",
-      palette: [1, 2, 3, 4, 5, 6],
+      palette: [1],
     },
   },
 
@@ -154,8 +145,7 @@ export const INVITATION_CONTENT = {
     attire: {
       heading: "Long Gown",
       image: bridesmaid,
-      addGuide: "Kindly avoid wearing white or black.",
-      palette: [1, 2, 3, 4, 5, 6],
+      palette: [1],
     },
   },
   // Cord Sponsor
@@ -168,8 +158,7 @@ export const INVITATION_CONTENT = {
     attire: {
       heading: "Long Gown",
       image: bridesmaid,
-      addGuide: "Kindly avoid wearing white or black.",
-      palette: [1, 2, 3, 4, 5, 6],
+      palette: [1],
     },
   },
 
@@ -183,8 +172,7 @@ export const INVITATION_CONTENT = {
     attire: {
       heading: "White Polo, Bow Tie & Suspenders, Trousers",
       image: boyImg,
-      addGuide: "Kindly avoid wearing white or black.",
-      palette: [1, 2, 3, 4, 5, 6],
+      palette: [10, 1, 7],
     },
   },
 
@@ -198,8 +186,7 @@ export const INVITATION_CONTENT = {
     attire: {
       heading: "White Polo, Bow Tie & Suspenders, Trousers",
       image: boyImg,
-      addGuide: "Kindly avoid wearing white or black.",
-      palette: [1, 2, 3, 4, 5, 6],
+      palette: [10, 1, 7],
     },
   },
 
@@ -213,8 +200,7 @@ export const INVITATION_CONTENT = {
     attire: {
       heading: "Formal Suit",
       image: fatherImg,
-      addGuide: "Kindly avoid wearing white or black.",
-      palette: [1, 2, 3, 4, 5, 6],
+      palette: [7],
     },
   },
 
@@ -228,8 +214,7 @@ export const INVITATION_CONTENT = {
     attire: {
       heading: "Long Gown",
       image: motherImg,
-      addGuide: "Kindly avoid wearing white or black.",
-      palette: [1, 2, 3, 4, 5, 6],
+      palette: [4],
     },
   },
 
@@ -243,8 +228,7 @@ export const INVITATION_CONTENT = {
     attire: {
       heading: "Formal Suit",
       image: fatherImg,
-      addGuide: "Kindly avoid wearing white or black.",
-      palette: [1, 2, 3, 4, 5, 6],
+      palette: [7],
     },
   },
 
@@ -258,8 +242,7 @@ export const INVITATION_CONTENT = {
     attire: {
       heading: "Long Gown",
       image: motherImg,
-      addGuide: "Kindly avoid wearing white or black.",
-      palette: [1, 2, 3, 4, 5, 6],
+      palette: [4],
     },
   },
 };
