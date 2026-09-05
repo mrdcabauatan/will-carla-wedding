@@ -50,8 +50,8 @@ function Home({ onEnterInvitation }) {
   }, []);
 
   return (
-    <section id="home" className="hero">
-      <div className="hero-content">
+    <section id="home" className="hero-home">
+      <div className="hero-home-content">
         {/* MONOGRAM */}
         <div className="monogram-wrapper">
           <img src={monogram} alt="Wedding Monogram" className="monogram" />
