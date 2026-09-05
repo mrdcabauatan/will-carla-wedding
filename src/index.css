@@ -242,20 +242,3 @@ body {
     overflow-y: visible;
   }
 }
-
-/* ==================================
-   IPHONE - ZOOMED OUT + CENTERED
-================================== */
-
-@media screen and (max-width: 767px) {
-
-  .app-container {
-    width: 111.111%;
-    min-height: 100vh;
-  }
-
-  .page {
-    width: 100%;
-  }
-
-}
