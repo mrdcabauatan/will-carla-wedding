@@ -40,7 +40,7 @@ const Intro = ({ onFinish, setGuestInfo, setSuccessLogin, showAlert }) => {
         showAlert({
           title: "Guest Not Found",
           message:
-            "Sorry, your name is not on the guest list. Please contact Carla De Juan or Will Tauro for further assistance.",
+            "Sorry, your name is not on the guest list. Please contact Carla De Juan or Willfred Tauro for further assistance.",
         });
         return;
       }

@@ -49,7 +49,7 @@ function Home({ onEnterInvitation }) {
     <section id="home" className="hero">
       <div className="hero-content">
         <h1 className="title">
-          Will & Carla
+          Willfred & Carla
         </h1>
         <h2 className="home-subtitle">December 10, 2026 | 4:00 PM</h2>
         <p className="description">

@@ -90,7 +90,7 @@ function RSVP({ guestInfo, setGuestInfo, showAlert }) {
                 <p>Thank you for your interest in celebrating with us</p>
                 <p>
                   The RSVP deadline has already passed. If you still wish to
-                  join us, please contact Carla De Juan or Will Tauro for
+                  join us, please contact Carla De Juan or Willfred Tauro for
                   further assistance.
                 </p>
               </>
@@ -184,7 +184,7 @@ function RSVP({ guestInfo, setGuestInfo, showAlert }) {
                   <br />
                   <br />
                   If you need to update your RSVP, please contact Carla De Juan
-                  or Will Tauro and they will be happy to assist you.
+                  or Willfred Tauro and they will be happy to assist you.
                 </p>
               )}
             </div>

@@ -11,7 +11,7 @@ function Invitation({ name, roleId }) {
         <div className="invitation-monogram">
           <img
             src={monogram}
-            alt="Will & Carla Monogram"
+            alt="Willfred & Carla Monogram"
             className="monogram-image"
           />
         </div>
@@ -58,7 +58,7 @@ function Invitation({ name, roleId }) {
 
         <p className="subtitle">TO CELEBRATE THE WEDDING OF</p>
 
-        <h1 className="couple-names">Will & Carla</h1>
+        <h1 className="couple-names">Willfred & Carla</h1>
 
         <div className="message">
           <p>{content.message}</p>
@@ -112,7 +112,7 @@ function Invitation({ name, roleId }) {
 
         <div className="signature">
           <p>WITH LOVE,</p>
-          <p>Will & Carla</p>
+          <p>Willfred & Carla</p>
         </div>
       </div>
     </section>
