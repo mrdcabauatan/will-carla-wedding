@@ -16,7 +16,7 @@ function Invitation({ name, roleId }) {
           />
         </div>
 
-        <h3 className="invite-title">HELLO {name}, YOU ARE INVITED</h3>
+        <h3 className="invite-title">HELLO <span className="invite-name">{name}</span>, YOU ARE INVITED</h3>
 
         <div className="ornament-divider">
           <span className="line"></span>

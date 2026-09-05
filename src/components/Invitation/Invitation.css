@@ -37,6 +37,10 @@
   color: var(--primary-color);
 }
 
+.invite-name {
+  font-style: italic;
+}
+
 .ornament-divider {
   display: flex;
   align-items: center;

@@ -2,7 +2,7 @@ import semiFormalImg from "../../assets/attire/semi-formal.png";
 import pSponsorImg from "../../assets/attire/principal-sponsor.png";
 import bestManImg from "../../assets/attire/bestman.png";
 import groomsmenImg from "../../assets/attire/groomsmen.png";
-import bridesmaid from "../../assets/attire/dusty-blue.png";
+import bridesmaid from "../../assets/attire/bridesmaid.png";
 import girlImg from "../../assets/attire/girl.png";
 import boyImg from "../../assets/attire/boy.png";
 import fatherImg from "../../assets/attire/father.png";
@@ -72,7 +72,7 @@ export const INVITATION_CONTENT = {
   // Bridesmaid
   4: {
     title: "BRIDESMAID",
-    subtitle: "A Beautiful Soul, A Treasured Friend",
+    subtitle: "A Beautiful Soul, A Treasured One",
     message:
       "Life's most meaningful journeys are made even more beautiful by the people who walk beside us. Thank you for the friendship you've shared with me, for the countless smiles you've brought, and for the unwavering support you've given through the years.",
 
