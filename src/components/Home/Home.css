@@ -981,21 +981,21 @@
   }
 
   .invitation-text {
-    font-size: 1rem;
+    font-size: 0.8rem;
     line-height: 1.18;
     letter-spacing: 0.8px;
     margin-bottom: 2.5vh;
   }
 
   .title {
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 1.2;
     margin-bottom: 1vh;
   }
 
   .title .and {
     margin-top: 1.2vh;
-    font-size: 2.35rem;
+    font-size: 2rem;
     line-height: 0.38;
   }
 
@@ -1004,7 +1004,7 @@
   }
 
   .wedding-month {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-bottom: 7px;
   }
 
@@ -1018,7 +1018,7 @@
 
   .day-name,
   .time-name {
-    font-size: 0.86rem;
+    font-size: 0.8rem;
   }
 
   .day-name {
@@ -1030,48 +1030,48 @@
   }
 
   .date-circle {
-    width: 54px;
-    height: 54px;
+    width: 50px;
+    height: 50px;
   }
 
   .date-circle span {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
 
   .time-name span {
-    font-size: 0.95rem;
+    font-size: 0.78rem;
   }
 
   .wedding-year {
     margin-top: 5px;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
   }
 
   .wedding-location {
     margin-top: 1.5vh;
-    font-size: 0.98rem;
+    font-size: 0.8rem;
     max-width: 94%;
   }
 
   .countdown {
     max-width: 310px;
     gap: 5px;
-    margin-top: 3vh;
+    margin-top: 2vh;
     margin-bottom: 0.5vh;
   }
 
   .time-box {
-    width: 58px;
-    height: 58px;
+    width: 45px;
+    height: 45px;
   }
 
   .time-box h3 {
-    font-size: 1.4rem;
+    font-size: 0.8rem;
   }
 
   .time-box span {
     margin-top: 2px;
-    font-size: 0.43rem;
+    font-size: 0.4rem;
     letter-spacing: 0.45px;
   }
 
@@ -1085,7 +1085,7 @@
   }
 
   .scroll-text {
-    font-size: 0.44rem;
+    font-size: 0.4rem;
     letter-spacing: 1.4px;
   }
 }
