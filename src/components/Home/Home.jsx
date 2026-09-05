@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import "./Home.css";
+import monogram from "../../assets/front-monogram.png";
 
 function Home({ onEnterInvitation }) {
-  const weddingDate = new Date("2026-12-10T16:00:00");
+  const weddingDate = new Date("2026-12-10T15:30:00");
 
   const isMobile = window.innerWidth <= 1024;
 
@@ -23,14 +24,17 @@ function Home({ onEnterInvitation }) {
         2,
         "0",
       ),
+
       hours: String(Math.floor((difference / (1000 * 60 * 60)) % 24)).padStart(
         2,
         "0",
       ),
+
       minutes: String(Math.floor((difference / (1000 * 60)) % 60)).padStart(
         2,
         "0",
       ),
+
       seconds: String(Math.floor((difference / 1000) % 60)).padStart(2, "0"),
     };
   };
@@ -48,15 +52,48 @@ function Home({ onEnterInvitation }) {
   return (
     <section id="home" className="hero">
       <div className="hero-content">
-        <h1 className="title">
-          Willfred & Carla
-        </h1>
-        <h2 className="home-subtitle">December 10, 2026 | 4:00 PM</h2>
-        <p className="description">
-          An evening of timeless elegance 
+        {/* MONOGRAM */}
+        <div className="monogram-wrapper">
+          <img src={monogram} alt="Wedding Monogram" className="monogram" />
+        </div>
+
+        <p className="invitation-text">
+          WE INVITE YOU TO THE
           <br />
-          as two hearts become one.
+          WEDDING OF
         </p>
+
+        <h1 className="title">
+          <span className="couple-name">Willfred</span>
+          <span className="and">&</span>
+          <span className="couple-name">Carla</span>
+        </h1>
+
+        <p className="invitation-text">
+          LOVE STORY AND THE BEGINNING
+          <br />
+          OF FOREVER
+        </p>
+
+        {/* WEDDING DETAILS */}
+        <div className="wedding-details">
+          <div className="wedding-month">DECEMBER</div>
+          <div className="date-row">
+            <div className="date-line"></div>
+            <div className="day-name">THURSDAY</div>
+            <div className="date-circle">
+              <span>10</span>
+            </div>
+            <div className="time-name">
+              AT <span>3:30</span> PM
+            </div>
+            <div className="date-line"></div>
+          </div>
+          <div className="wedding-year">2026</div>
+          <div className="wedding-location">San Agustin Church, Intramuros</div>
+        </div>
+
+        {/* COUNTDOWN */}
         <div className="countdown">
           <div className="time-box">
             <div className="time-content">
@@ -86,6 +123,8 @@ function Home({ onEnterInvitation }) {
             </div>
           </div>
         </div>
+
+        {/* SCROLL INDICATOR */}
         <div
           className="scroll-indicator"
           onClick={onEnterInvitation}
@@ -94,6 +133,8 @@ function Home({ onEnterInvitation }) {
           <div className={isMobile ? "mouse-mobile" : "mouse"}>
             <span>{isMobile ? "↓" : "→"}</span>
           </div>
+
+          <p className="scroll-text">TAP TO ENTER</p>
         </div>
       </div>
     </section>
