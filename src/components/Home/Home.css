@@ -972,6 +972,7 @@
 
 @media (max-width: 480px) {
   .monogram-wrapper {
+    margin-top: 4vh;
     margin-bottom: 2vh;
   }
 
@@ -987,9 +988,9 @@
   }
 
   .title {
-    font-size: 4.15rem;
+    font-size: 4rem;
     line-height: 1.2;
-    margin-bottom: 2vh;
+    margin-bottom: 1vh;
   }
 
   .title .and {
@@ -1055,8 +1056,8 @@
   .countdown {
     max-width: 310px;
     gap: 5px;
-    margin-top: 4vh;
-    margin-bottom: 3vh;
+    margin-top: 3vh;
+    margin-bottom: 0.5vh;
   }
 
   .time-box {
@@ -1074,13 +1075,9 @@
     letter-spacing: 0.45px;
   }
 
-  .scroll-indicator {
-    margin-top: 1.8vh;
-  }
-
   .mouse-mobile {
     width: 26px;
-    height: 52px;
+    height: 40px;
   }
 
   .mouse-mobile span {
