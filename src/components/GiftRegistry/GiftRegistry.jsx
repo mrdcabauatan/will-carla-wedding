@@ -2,7 +2,7 @@ import "./GiftRegistry.css";
 import { useState } from "react";
 
 const GOOGLE_SCRIPT_URL =
-  "https://script.google.com/macros/s/AKfycbxNw8L0mYqR8i-O3fkTpS5tGKqeAzqcd9vD9Y1A1iv3g8mDUthdzJGS8iQML1mn7iz72A/exec";
+  "https://script.google.com/macros/s/AKfycbyuMtTJ7g23psgdBSZOlhTgCDFuu8YrOMl6o-c1w7bORkppre7GoIBrFKMHy0JVazeShw/exec";
 
 function GiftRegistry({ guestInfo, showAlert }) {
   const [message, setMessage] = useState("");

@@ -2,7 +2,7 @@ import "./Invitation.css";
 import { INVITATION_CONTENT } from "../constants/invitation_roles";
 import monogram from "../../assets/monogram.png";
 
-function Invitation({ name, roleId }) {
+function Invitation({ name, roleId, host }) {
   const content = INVITATION_CONTENT[roleId] ?? INVITATION_CONTENT[0];
 
   return (
@@ -112,7 +112,7 @@ function Invitation({ name, roleId }) {
 
         <div className="signature">
           <p>WITH LOVE,</p>
-          <p>Willfred & Carla</p>
+          <p>{host}</p>
         </div>
       </div>
     </section>

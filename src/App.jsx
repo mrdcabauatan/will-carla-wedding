@@ -30,6 +30,7 @@ const App = () => {
     companion: 0,
     group: "",
     companionNames: [],
+    host: "",
   });
 
   const audioRef = useRef(null);
@@ -117,6 +118,7 @@ const App = () => {
                 <Invitation
                   name={`${guestInfo.firstName.toUpperCase()} ${guestInfo.lastName.toUpperCase()}`}
                   roleId={roleId}
+                  host={guestInfo.host}
                 />
               </div>
 
@@ -161,6 +163,7 @@ const App = () => {
                 <Invitation
                   name={`${guestInfo.firstName.toUpperCase()} ${guestInfo.lastName.toUpperCase()}`}
                   roleId={roleId}
+                  host={guestInfo.host}
                 />
               </div>
 
