@@ -11,6 +11,7 @@ function Navbar({ setCurrentPage, isAttending }) {
     ...(isAttending ? [{ label: "Venue Details", page: "details" }] : []),
 
     { label: "RSVP", page: "rsvp" },
+    { label: "Reminders", page: "reminders" },
   ];
 
   return (

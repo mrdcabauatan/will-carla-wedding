@@ -10,6 +10,7 @@ import GiftRegistry from "./components/GiftRegistry/GiftRegistry";
 import Gallery from "./components/Gallery/Gallery";
 import Details from "./components/Details/Details";
 import Rsvp from "./components/Rsvp/Rsvp";
+import Reminders from "./components/Reminders/Reminders";
 import bgMusic from "./assets/bgmusic.mp3";
 import AlertModal from "./components/AlertModal/AlertModal";
 import useAlert from "./hooks/useAlert";
@@ -52,6 +53,7 @@ const App = () => {
   }
 
   pages.push("rsvp");
+  pages.push("reminders");
 
   const currentIndex = pages.indexOf(currentPage);
 
@@ -147,6 +149,10 @@ const App = () => {
                   showAlert={showAlert}
                 />
               </div>
+
+              <div className="page">
+                <Reminders />
+              </div>
             </div>
           ) : (
             <div
@@ -191,6 +197,10 @@ const App = () => {
                   setGuestInfo={setGuestInfo}
                   showAlert={showAlert}
                 />
+              </div>
+
+              <div className="page">
+                <Reminders />
               </div>
             </div>
           )}

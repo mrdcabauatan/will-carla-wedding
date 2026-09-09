@@ -11,6 +11,7 @@
 
 .rsvp-title {
   margin-top: 1rem;
+  margin-bottom: 2rem;
   font-weight: 700;
 }
 
@@ -26,8 +27,8 @@
 }
 
 .rsvp-icon {
-  width: 45px;
-  height: 45px;
+  width: 50px;
+  height: 50px;
   margin: 0 auto 0.8rem;
   display: flex;
   justify-content: center;
@@ -39,30 +40,31 @@
 
 .rsvp-info-card h3 {
   font-family: "Great Vibes", cursive;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   letter-spacing: 0.35rem;
   color: var(--primary-color);
 }
 
 .rsvp-info-card p {
   color: var(--primary-color);
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: 0.35rem;
 }
 
 .rsvp-message {
   max-width: 600px;
-  margin: 0 auto 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
   color: var(--primary-color);
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 500;
   line-height: 1.8;
 }
 
 .rsvp-link {
   display: inline-block;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   color: var(--secondary-color);
   font-size: 3rem;
   font-weight: 500;
@@ -90,7 +92,7 @@
 .rsvp-deadline {
   margin-top: 1rem;
   color: var(--primary-color);
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 .rsvp-deadline span {
@@ -98,41 +100,10 @@
 }
 
 .rsvp-deadline p {
-  max-width: 700px;
+  margin-top: 0.5rem;
+  max-width: 95vh;
   line-height: 1.8;
   font-weight: 500;
-}
-
-.rsvp-reminders {
-  margin-top: 2rem;
-  color: var(--primary-color);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.rsvp-reminders h2 {
-  margin-bottom: 1rem;
-  font-family: "Great Vibes", cursive;
-  letter-spacing: 0.25rem;
-  font-size: 1.3rem;
-}
-
-.rsvp-reminders ul {
-  width: fit-content;
-  margin: 0 auto;
-  padding-left: 10rem;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
-  font-size: 1.3rem;
-  font-weight: 500;
-  line-height: 1.3;
-}
-
-.rsvp-reminders li {
-  max-width: 760px;
 }
 
 /* =========================
@@ -421,16 +392,6 @@
     margin-bottom: 2vh;
   }
 
-  .rsvp-reminders h2 {
-    font-size: 1.7rem;
-    margin-bottom: 2vh;
-  }
-
-  .rsvp-reminders ul {
-    font-size: 1.5rem;
-    max-width: 55vh;
-  }
-
 }
 
 /* =========================
@@ -483,16 +444,6 @@
 
   .rsvp-deadline {
     font-size: 1.2rem;
-  }
-
-  .rsvp-reminders h2 {
-    font-size: 1.8rem;
-  }
-
-  .rsvp-reminders ul {
-    padding-left: 4rem;
-    font-size: 1.3rem;
-    line-height: 1.6;
   }
 
   .companion-field label {
@@ -555,16 +506,6 @@
     font-size: 1.1rem;
   }
 
-  .rsvp-reminders h2 {
-    font-size: 1.7rem;
-  }
-
-  .rsvp-reminders ul {
-    padding-left: 2rem;
-    font-size: 1.2rem;
-    line-height: 1.6;
-  }
-
   .companion-inputs {
     gap: .85rem;
   }
@@ -600,14 +541,6 @@
   .rsvp-info-card p {
     font-size: 1.1rem;
     letter-spacing: .12rem;
-  }
-
-  .rsvp-reminders h2 {
-    font-size: 1.55rem;
-  }
-
-  .rsvp-reminders ul {
-    font-size: 1.15rem;
   }
 
   .rsvp-modal {
@@ -662,17 +595,6 @@
 
   .rsvp-deadline {
     font-size: 1rem;
-  }
-
-  .rsvp-reminders h2 {
-    font-size: 1.45rem;
-  }
-
-  .rsvp-reminders ul {
-    padding-left: 1.5rem;
-    font-size: 1.08rem;
-    line-height: 1.55;
-    gap: .7rem;
   }
 
   .rsvp-modal {

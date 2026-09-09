@@ -131,24 +131,6 @@ function RSVP({ guestInfo, setGuestInfo, showAlert }) {
               arrangements for our special day
             </p>
           </div>
-
-          <div className="rsvp-reminders">
-            <h2>Important Reminders</h2>
-
-            <ul>
-              <li>Kindly arrive 30 minutes before the ceremony.</li>
-              <li>
-                Kindly note that guests are by name invitation only and no plus
-                ones can be accommodated
-              </li>
-              <li>Refrain from using your phone during the ceremony</li>
-              <li>
-                For the comfort and safety of all, we kindly request no pets and
-                no children.
-              </li>
-              <li>Adhere to the dresscode.</li>
-            </ul>
-          </div>
         </div>
       </section>
 
