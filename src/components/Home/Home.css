@@ -972,12 +972,12 @@
 
 @media (max-width: 480px) {
   .monogram-wrapper {
-    margin-top: 4vh;
+    margin-top: 1vh;
     margin-bottom: 2vh;
   }
 
   .monogram {
-    width: 92px;
+    width: 80px;
   }
 
   .invitation-text {
