@@ -161,6 +161,40 @@
 /* ==========================
    TABLET
 ========================== */
+@media (max-width:1199px) {
+    .gallery-carousel {
+        height: 600px;
+    }
+
+    .center-image {
+        width: 450px;
+        height: 570px;
+    }
+
+    .left-image,
+    .right-image {
+        width: 420px;
+        height: 500px;
+    }
+
+    .left-image {
+        left: -80px;
+    }
+
+    .right-image {
+        right: -80px;
+    }
+
+    .far-left,
+    .far-right {
+        display: none;
+    }
+
+    .gallery-quote {
+        font-size: 1.5rem;
+        max-width: 50rem;
+    }
+}
 
 @media (max-width:900px) {
     .gallery-section {
@@ -178,7 +212,7 @@
 
     .left-image,
     .right-image {
-        width: 180px;
+        width: 280px;
         height: 480px;
     }
 
@@ -211,7 +245,7 @@
     }
 
     .gallery-carousel {
-        height: 500px;
+        height: 420px;
     }
 
     .center-image {
@@ -221,17 +255,17 @@
 
     .left-image,
     .right-image {
-        width: 200px;
-        height: 250px;
+        width: 250px;
+        height: 300px;
         opacity: .6;
     }
 
     .left-image {
-        left: -5px;
+        left: 30px;
     }
 
     .right-image {
-        right: -5px;
+        right: 30px;
     }
 
     .far-left,
@@ -241,7 +275,7 @@
 
     .gallery-quote {
         font-size: 1.3rem;
-        max-width: 22rem;
+        max-width: 30rem;
     }
 }
 

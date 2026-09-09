@@ -206,10 +206,14 @@
 
     .attire-heading {
         font-size: 2.4rem;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
     }
 
     .dress-description {
         font-size: 1.5rem;
+        max-width: 65vh;
+        margin-bottom: 1vh;
     }
 
     .attire-guidelines h4 {
@@ -217,7 +221,7 @@
     }
 
     .attire-guidelines li {
-        font-size: 1.45rem;
+        font-size: 1.5rem;
     }
 
 }
@@ -233,16 +237,19 @@
 
     .attire-title {
         margin-top: 2rem;
+        margin-bottom: 2vh;
     }
 
     .attire-heading {
-        font-size: 2.7rem;
+        font-size: 2.3rem;
+        margin-bottom: 1.8vh;
     }
 
     .dress-description {
         font-size: 1.45rem;
         line-height: 1.7;
-        margin-bottom: 0;
+        margin-bottom: 2vh;
+        max-width: 60vh;
     }
 
     .attire-showcase {

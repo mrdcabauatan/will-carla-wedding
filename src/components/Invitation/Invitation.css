@@ -213,30 +213,39 @@
   }
 
   .invite-title {
-    font-size: 1.15rem;
+    font-size: 1.5rem;
     letter-spacing: .45rem;
+    max-width: 60vh;
   }
 
   .subtitle {
-    font-size: 1.15rem;
+    font-size: 1.5rem;
     letter-spacing: .3rem;
   }
 
   .couple-names {
-    font-size: clamp(4.3rem, 9vw, 6.5rem);
+    margin-top: 2vh;
+    font-size: 7rem;
   }
 
   .message p {
-    font-size: 1.45rem;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-size: 1.5rem;
   }
 
   .participation-text,
   .celebrate-text {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
   }
 
   .role-subtitle {
-    font-size: 1.45rem;
+    font-size: 1.5rem;
+  }
+
+  .signature p:first-child,
+  .signature p:last-child {
+    font-size: 1.5rem;
   }
 
 }
@@ -247,17 +256,20 @@
 @media (max-width:991px) {
 
   .invite-title {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     letter-spacing: .35rem;
+    margin-bottom: 1vh;
   }
 
   .subtitle {
     font-size: 1.1rem;
     letter-spacing: .25rem;
+    margin-bottom: 2vh;
   }
 
   .couple-names {
     font-size: clamp(4.2rem, 10vw, 5.9rem);
+    margin-bottom: 2vh;
   }
 
   .message p {

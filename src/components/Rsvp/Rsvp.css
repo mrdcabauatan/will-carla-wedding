@@ -394,11 +394,18 @@
 @media (max-width:1199px) {
 
   .rsvp-message {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
   }
 
   .rsvp-link {
     font-size: 2.8rem;
+    margin-bottom: 2vh;
+  }
+
+  .rsvp-info {
+    margin-top: 2vh;
   }
 
   .rsvp-info-card h3 {
@@ -406,15 +413,22 @@
   }
 
   .rsvp-info-card p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+  }
+
+  .rsvp-deadline {
+    font-size: 1.5rem;
+    margin-bottom: 2vh;
   }
 
   .rsvp-reminders h2 {
     font-size: 1.7rem;
+    margin-bottom: 2vh;
   }
 
   .rsvp-reminders ul {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    max-width: 55vh;
   }
 
 }
@@ -432,11 +446,13 @@
 
   .rsvp-title {
     margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   .rsvp-info {
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
+    margin-bottom: 1rem;
   }
 
   .rsvp-icon {
@@ -457,10 +473,12 @@
     max-width: 42rem;
     font-size: 1.3rem;
     line-height: 1.7;
+    margin-bottom: 1.5rem;
   }
 
   .rsvp-link {
     font-size: 2.8rem;
+    margin-bottom: 1.5rem;
   }
 
   .rsvp-deadline {

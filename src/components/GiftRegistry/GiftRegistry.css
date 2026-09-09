@@ -160,11 +160,14 @@
 @media (max-width:1199px) {
 
     .gift-heading {
+        margin-top: 3vh;
         font-size: 2.4rem;
+        margin-bottom: 2vh;
     }
 
     .gift-description {
         font-size: 1.5rem;
+        margin-bottom: 2vh;
     }
 
 }
@@ -180,16 +183,19 @@
 
     .gift-title {
         margin-top: 2rem;
+        margin-bottom: 1rem;
     }
 
     .gift-heading {
-        font-size: 2.7rem;
+        font-size: 2.3rem;
+        margin-bottom: 1rem;
     }
 
     .gift-description {
         font-size: 1.45rem;
         line-height: 1.7;
         max-width: 40rem;
+        margin-bottom: 2rem;
     }
 }
 
