@@ -88,6 +88,7 @@
   color: var(--primary-color);
   margin: 1rem 0;
   text-align: center;
+  font-family: "The Youngest", serif;
 }
 
 /* =========================
@@ -133,11 +134,11 @@
 @media (max-width:1199px) {
 
   .details-heading {
-    font-size: 2.3rem;
+    font-size: 2.4rem;
   }
 
   .venue-name {
-    font-size: 2.6rem;
+    font-size: 2.3rem;
   }
 
   .venue-address {
@@ -175,20 +176,20 @@
   }
 
   .details-heading {
-    font-size: 2.6rem;
+    font-size: 2.3rem;
   }
 
   .venue-name {
-    font-size: 2.7rem;
+    font-size: 2.2rem;
   }
 
   .venue-address {
-    font-size: 1.45rem;
+    font-size: 1.5rem;
     line-height: 1.7;
   }
 
   .venue-time {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
 }

@@ -69,7 +69,7 @@ function RSVP({ guestInfo, setGuestInfo, showAlert }) {
               </div>
 
               <h3>Time</h3>
-              <p>4:00 PM</p>
+              <p>3:00 PM</p>
             </div>
 
             <div className="rsvp-info-card">

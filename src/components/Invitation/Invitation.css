@@ -102,6 +102,7 @@
   color: var(--primary-color);
   text-shadow: 0 2px 8px rgba(0, 0, 0, .15);
   margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .participation-text {
@@ -348,6 +349,7 @@
 
   .couple-names {
     font-size: 3.8rem;
+    margin-bottom: 1vh;
   }
 
   .message {

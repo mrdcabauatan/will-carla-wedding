@@ -3,7 +3,7 @@ import "./Home.css";
 import monogram from "../../assets/front-monogram.png";
 
 function Home({ onEnterInvitation }) {
-  const weddingDate = new Date("2026-12-10T15:30:00");
+  const weddingDate = new Date("2026-12-10T15:00:00");
 
   const isMobile = window.innerWidth <= 1024;
 
@@ -85,7 +85,7 @@ function Home({ onEnterInvitation }) {
               <span>10</span>
             </div>
             <div className="time-name">
-              AT <span>3:30</span> PM
+              AT <span>3:00</span> PM
             </div>
             <div className="date-line"></div>
           </div>
