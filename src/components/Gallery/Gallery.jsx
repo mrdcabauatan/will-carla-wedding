@@ -97,25 +97,6 @@ export default function Gallery() {
             </div>
           </div>
 
-          <div className="gallery-dots">
-            {photos.map((_, index) => (
-              <button
-                key={index}
-                className={index === current ? "dot active" : "dot"}
-                onClick={() => {
-                  if (index === current) return;
-
-                  setFade(true);
-
-                  setTimeout(() => {
-                    setCurrent(index);
-                    setFade(false);
-                  }, 250);
-                }}
-              />
-            ))}
-          </div>
-
           <p className="gallery-quote">
             "Every memory has shaped our path, leading us to this unforgettable
             celebration."
