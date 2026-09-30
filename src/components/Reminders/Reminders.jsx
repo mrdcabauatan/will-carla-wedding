@@ -15,8 +15,7 @@ export default function Reminders() {
           <div className="reminders-guidelines">
             <ol>
               <li>
-                We kindly ask that you arrive on time to ensure you don't miss
-                any special moments.
+                Please arrive on time so you don’t miss any special moments.
               </li>
 
               <li>
@@ -26,17 +25,14 @@ export default function Reminders() {
               </li>
 
               <li>
-                We know you'll want to capture our special moments! We kindly
-                ask that please refrain from stepping into the aisle or blocking
-                the assigned Photographers/Videographers while they are working.
-                This will help them capture all the beautful moments of our day
-                without obstruction. Please feel free to take photos and videos
-                from your seats. We'd love for you to enjoy the moment with us
-                while our professional team take care of capturing the memories.
+                Please feel free to take photos and videos from your seats. We'd
+                love for you to enjoy the moment with us while our professional
+                team take care of capturing the memories.
               </li>
 
               <li>
-                For the comfort and safety of all, we kindly request no pets.
+                Kindly avoid stepping into the aisle or obstructing our
+                professional photographers and videographers.
               </li>
 
               <li>
@@ -45,15 +41,10 @@ export default function Reminders() {
               </li>
 
               <li>
-                While we adore your little ones, we have chosen to celebrate as
-                an adult-only affiar. We hope this gives you a well-deserved
-                night out.
+                While we adore your little ones, this will be an adults-only
+                affair. We hope you enjoy a well-deserved night out!
               </li>
-              <li>
-                This day is dedicated to celebrating the couple. We Kindly ask
-                that you refrain from any personal announcement (engagements,
-                pregnancies, reveals, and the like).
-              </li>
+
               <li>
                 If you have any questions or need a little help along the way,
                 please don't hesitate to reach out to Willfred Tauro or Carla De
