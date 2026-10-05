@@ -25,11 +25,10 @@ export default function Reminders() {
               </li>
 
               <li>
-                Please feel free to take photos and videos from your seats. We'd
-                love for you to enjoy the moment with us while our professional
-                team take care of capturing the memories. Kindly avoid stepping
-                into the aisle or obstructing our professional photographers and
-                videographers.
+                Help us capture every special moment by keeping the aisle clear
+                for our photographers and videographers. Feel free to take
+                photos and videos from your seat and thank you for being part
+                of our day.
               </li>
 
               <li>
