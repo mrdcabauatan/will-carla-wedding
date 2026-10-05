@@ -58,7 +58,7 @@ export default function Details({ guestInfo }) {
 
                 <div className="time-divider"></div>
 
-                <p className="venue-time">6:00 PM</p>
+                <p className="venue-time">5:00 PM</p>
 
                 <a
                   href={receptionMap}
