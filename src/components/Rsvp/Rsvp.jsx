@@ -11,6 +11,7 @@ function RSVP({ guestInfo, setGuestInfo, showAlert }) {
   const isNotYetResponding =
     guestInfo.churchAttendance === "Not Yet Responding" &&
     guestInfo.receptionAttendance === "Not Yet Responding";
+
   const isNotAttending =
     guestInfo.churchAttendance === "Not Attending" ||
     guestInfo.receptionAttendance === "Not Attending";
@@ -88,6 +89,7 @@ function RSVP({ guestInfo, setGuestInfo, showAlert }) {
             {isRsvpClosed ? (
               <>
                 <p>Thank you for your interest in celebrating with us</p>
+
                 <p>
                   The RSVP deadline has already passed. If you still wish to
                   join us, please contact Carla De Juan or Willfred Tauro for
@@ -97,27 +99,31 @@ function RSVP({ guestInfo, setGuestInfo, showAlert }) {
             ) : (
               <>
                 <p>
-                  Please confirm your attendance by clicking the link below.
+                  Please confirm your attendance by clicking the button below.
                 </p>
+
                 <p>We can't wait to share this moment with you.</p>
               </>
             )}
           </div>
 
-          {isRsvpClosed ? (
-            <span className="rsvp-link disabled">RSVP Closed</span>
-          ) : (
-            <a
-              href="#"
-              className="rsvp-link"
-              onClick={(e) => {
-                e.preventDefault();
-                setShowModal(true);
-              }}
-            >
-              RSVP Now
-            </a>
-          )}
+          <div className="rsvp-action">
+            {isRsvpClosed ? (
+              <span className="rsvp-link disabled">RSVP Closed</span>
+            ) : (
+              <>
+                <button
+                  type="button"
+                  className="rsvp-link primary-button"
+                  onClick={() => setShowModal(true)}
+                >
+                  RSVP Now
+                </button>
+
+                <span className="rsvp-click-caption">CLICK HERE</span>
+              </>
+            )}
+          </div>
 
           <div className="rsvp-deadline">
             <h4>
@@ -141,7 +147,12 @@ function RSVP({ guestInfo, setGuestInfo, showAlert }) {
             onClick={() => setShowModal(false)}
           >
             <div className="rsvp-modal" onClick={(e) => e.stopPropagation()}>
-              <button className="close-btn" onClick={() => setShowModal(false)}>
+              <button
+                type="button"
+                className="close-btn"
+                onClick={() => setShowModal(false)}
+                aria-label="Close RSVP"
+              >
                 ×
               </button>
 

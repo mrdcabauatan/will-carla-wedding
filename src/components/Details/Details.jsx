@@ -33,7 +33,7 @@ export default function Details({ guestInfo }) {
                   href={churchMap}
                   target="_blank"
                   rel="noreferrer"
-                  className="map-button primary-button"
+                  className="primary-button"
                 >
                   📍 View on Google Maps
                 </a>
@@ -64,7 +64,7 @@ export default function Details({ guestInfo }) {
                   href={receptionMap}
                   target="_blank"
                   rel="noreferrer"
-                  className="map-button primary-button"
+                  className="primary-button"
                 >
                   📍 View on Google Maps
                 </a>
