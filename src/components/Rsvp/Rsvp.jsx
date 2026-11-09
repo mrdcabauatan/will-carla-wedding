@@ -17,7 +17,8 @@ function RSVP({ guestInfo, setGuestInfo, showAlert }) {
     guestInfo.receptionAttendance === "Not Attending";
 
   const RSVP_DEADLINE = new Date("2026-11-07T23:59:59");
-  const isRsvpClosed = new Date() > RSVP_DEADLINE;
+  //const isRsvpClosed = new Date() > RSVP_DEADLINE;
+  const isRsvpClosed = false;
 
   useEffect(() => {
     if (!rsvpSubmitted) return;
