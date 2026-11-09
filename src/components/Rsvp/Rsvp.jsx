@@ -16,7 +16,7 @@ function RSVP({ guestInfo, setGuestInfo, showAlert }) {
     guestInfo.churchAttendance === "Not Attending" ||
     guestInfo.receptionAttendance === "Not Attending";
 
-  const RSVP_DEADLINE = new Date("2026-11-07T23:59:59");
+  const RSVP_DEADLINE = new Date("2026-11-13T23:59:59");
   //const isRsvpClosed = new Date() > RSVP_DEADLINE;
   const isRsvpClosed = false;
 
@@ -129,7 +129,7 @@ function RSVP({ guestInfo, setGuestInfo, showAlert }) {
           <div className="rsvp-deadline">
             <h4>
               RSVP Deadline:
-              <span> November 07, 2026</span>
+              <span> November 13, 2026</span>
             </h4>
 
             <p>
